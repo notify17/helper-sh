@@ -142,3 +142,5 @@ until [ "$n" -gt "$MAX_RETRIES" ]; do
   n=$((n + 1))
   sleep 1
 done
+
+exit 0
