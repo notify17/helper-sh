@@ -33,7 +33,7 @@ while test $# -gt 0; do
   -x | --trace)
     set -x
     ;;
-  -k | --keyl)
+  -k | --key)
     RAW_API_KEY="${2:-}"
     shift
     ;;
